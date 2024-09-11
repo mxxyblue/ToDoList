@@ -1,7 +1,7 @@
 /**app.js */
 window.onload = function(){
 	const addBtn = document.querySelector('button#add-task-btn');
-	addBtn.addEventListener('click', addTask);
+	addBtn.addEventListener('click', addTask); //이벤트 추가
 };
 
 function addTask(){ //add 버튼 클릭 이벤트
